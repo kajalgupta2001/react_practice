@@ -1,0 +1,227 @@
+.Cooking .cook-p {
+    padding: 110px 0px;
+    margin: 0px 150px;
+}
+
+.Cooking .flexbox {
+    display: flex;
+    gap: 20px;
+}
+
+.Cooking .content {
+    flex: 1;
+}
+
+.Cooking .content h1 {
+    width: 90%;
+    font-size: 55px;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 23px;
+}
+
+.Cooking .content p {
+    width: 90%;
+    color: gray;
+    font-size: 22px;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 55px;
+    /* letter-spacing:0.px; */
+}
+
+.Cooking .content .gridbox {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.Cooking .content .gridbox .grid1 .icon {
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    width: 60px;
+    place-content: center;
+    display: grid;
+}
+
+.Cooking .content .gridbox .grid1 .grid-text h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.Cooking .content .gridbox .grid1 .grid-text p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.Cooking .content .gridbox .grid2 .grid-text p {
+    font-size: 17px;
+    line-height: 24px;
+}
+
+.Cooking .content .gridbox .grid2 .grid-text h3 {
+    padding-top: 20px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.Cooking .content .gridbox .grid2 .icon {
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    width: 60px;
+    place-content: center;
+    display: grid;
+}
+
+.Cooking .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.Cooking .flexbox .image {
+    height: auto;
+    max-width: 100%;
+}
+
+.Cooking .flexbox .image .img2 {
+    transform: translate(36px, -37px);
+}
+
+.Cooking .flexbox .image .img1 img {
+    height: 394px;
+    width: 311px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.Cooking .flexbox .image .img2 img {
+    height: 474px;
+    width: 318px;
+    border-radius: 10px;
+    /* border: 8px solid white; */
+
+}
+
+
+
+/* ===========features====== */
+
+
+
+.features .flex {
+    width: 100%;
+    display: flex;
+    
+
+    
+    
+}
+.feature-p{
+    margin: 0px 50px;
+}
+.features .flex .left{
+    width: 50%;
+    flex: 1;
+}
+.features .flex .right{
+    padding: 0px 50px;
+    flex: 1;
+    width: 50%;
+
+
+}
+.features .flex .left img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-end-end-radius: 10px;
+}
+
+.features .flex .right h3 {
+    color: red;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 35px;
+    font-size: 20px;
+
+}
+
+.features .flex .right h1 {
+    font-size: 45px;
+    padding-top: 18px;
+}
+
+.features .flex .right p {
+    color: gray;
+    padding-top: 24px;
+    line-height: 30px;
+    width: 88%;
+}
+
+.features .flex .right .gridbox {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.features .flex .right .gridbox span {
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    place-content: center;
+    display: grid;
+}
+
+.features .flex .right .gridbox .grid1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.features .flex .right .gridbox .grid1 h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.features .flex .right .gridbox .grid1 p {
+    padding-top: 10px;
+}
+
+.features .flex .right .gridbox .grid2 {
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.features .flex .right .gridbox .grid2 h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.features .flex .right .gridbox .grid2 p {
+    padding-top: 10px;
+}
+
+.features .flex .right .gridbox .grid3 {
+    display: flex;
+    gap: 20px;
+}
+
+.features .flex .right .gridbox .grid3 h2 {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.features .flex .right .gridbox .grid3 p {
+    padding-top: 10px;
+}
